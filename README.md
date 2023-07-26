@@ -1,14 +1,15 @@
 # PROJETO[jr]
+
 '''
 PROJETO_01 CHESK LIST GERADOR
 PROGAMADOR:JORIVALDO JUNIOR
 ''' 
-atenc = '[ATENCIOSAMENTE HOSPITAL...]'
-print(f'**[NOTIFICAÇAO DO APP CHESK LIST GERADOR]****\n')
+print(f'**********[NOTIFICAÇAO DO APP CHESK LIST GERADOR]**********\n')
+
 
 print(f''' * O PREENCHIMENTO DESTE RELATORIO, FOI EXECULTADO
  * POR UM PROFISSIONAL HABILITADO DA ELETRICA\n''')
- 
+
 print(f'              [DADOS DO COLABORADOR]\n')
 
 nome = input('  01- Nome :')
@@ -41,6 +42,8 @@ anomalia_sinistro = input('  24- Anomalia/Sinistro(Sim/Nao)?:')
 alarme = input('  25- Presença De Alarme(Sim/Nao):')
 escada = input('  26- Escada No Local(Sim/Nao):')
 cadeado = input('  27- O Gerador Esta Fechado Corretamente!\n ')
+
+#def litros_diesel():
 if (litros_diesel <= 1200):
 	print(f'  (OBS): FAZER O PEDIDO DO DIESEL URGENTE!\n' ) 
     
@@ -48,5 +51,10 @@ elif (litros_diesel >= 1500):
 	print(f'  (OBS): OS TANQUES ESTAO BEM ABASTECIDO!') 
 
 print(f'  *RELATORIO ENVIADO COM SUCESSO!\n')   
-   
+
+atenc = '[ATENCIOSAMENTE HOSPITAL...]'
 print( atenc.center(55, '*'))
+
+
+
+
